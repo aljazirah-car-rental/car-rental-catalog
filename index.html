@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://storage.googleapis.com/bucket_rafi/favicon.ico">
+    <title>Rafi Azzaky</title>
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="bg-white absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">
+                        <img src="dist/img/logo.png" alt="" class="w-20">
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-bottom-left"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line origin-top-left"></span>
+                        
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-2 bg-white rounded-b-lg shadow-lg w-full right-0 left-0 top-full  lg:block lg:static lg:bg-transparent lg:max-w-full lg:rounded-none lg:shadow-none">
+                        <ul class="block divide-y divide-black lg:divide-y-0 lg:flex">
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About Us</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Our Cars</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://wa.me/6281288893882" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Shortcut comment CMD + / -->
+    <!-- Hero Section Start -->
+    <!-- Shortcut buat liat isi file tailwind CTRL + SPACE -->
+    <section id="home" class="pt-36 overflow-clip">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl"><span
+                            class=" text-3xl block font-black  text-darktext-4xl mt-1">Need A Car?</span></h1>
+                    <p class="font-medium text-light mb-10 leading-relaxed">With an extensive network in various major cities in Indonesia, Aljazirah is ready to accompany your journey!</p>
+                    <a href="https://wa.me/6281288893882" class="text-base font-semibold text-white bg-secondary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Rent Now!</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="dist/img/pajero-landing.png" alt="rafi" class="max-w-full mx-auto">
+                        <img src="dist/img/Ellipse-1.png" alt="back" width="420" height="420" class="absolute bottom-20 -z-10 left-1/2 translate-x-0 translate-y-4 md:scale-125">
+                        <img src="dist/img/Ellipse-2.png" alt="back" width="320" height="320" class="absolute bottom-20 -z-10 left-1/2 translate-x-0 translate-y-12 md:scale-125">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-8 overflow-clip">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="hidden lg:block w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="dist/img/Xenia.png" alt="rafi" class="max-w-full mx-auto">
+                        <img src="dist/img/Ellipse-1.png" alt="back" width="420" height="420" class="absolute bottom-20 -z-10 -translate-x-0 translate-y-40 md:scale-125">
+                        <img src="dist/img/Ellipse-2.png" alt="back" width="320" height="320" class="absolute bottom-20 -z-10 left-1/2 -translate-x-56 translate-y-12 md:scale-125">
+                    </div>
+                </div>
+                <div class="w-full flex flex-wrap self-center px-4 lg:w-1/2">
+                    <div class="w-full">
+                        <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl"><span
+                            class=" text-3xl block font-black  text-darktext-4xl mt-1">Feel the Best Experience</span></h1>
+                        <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl"><span
+                            class=" text-3xl block font-black  text-darktext-4xl mt-1">with <span class="text-secondary">Jazeerah</span></span></h1>
+                    </div>
+                    <div class="w-full flex flex-wrap divide-y divide-gray-400 mt-8">
+                        <div class="w-full flex flex-wrap items-center py-4">
+                            <div class="w-1/5">
+                                <img src="dist/img/Experienced.png" alt="" class="w-1/2 mx-auto">
+                            </div>
+                            <div class="w-4/5 flex flex-wrap">
+                                <h1 class="w-full font-bold">Experienced</h1>
+                                <p class="w-full">We have been experienced since 1997.</p>
+                            </div>
+                        </div>
+                        <div class="w-full flex flex-wrap items-center py-4">
+                            <div class="w-1/5">
+                                <img src="dist/img/with-driver.png" alt="" class="w-1/2 mx-auto">
+                            </div>
+                            <div class="w-4/5 flex flex-wrap">
+                                <h1 class="w-full font-bold">With Driver</h1>
+                                <p class="w-full">The drivers are proficient in Indonesian, English, and Arabic.</p>
+                            </div>
+                        </div>
+                        <div class="w-full flex flex-wrap items-center py-4">
+                            <div class="w-1/5">
+                                <img src="dist/img/globe.png" alt="" class="w-1/2 mx-auto">
+                            </div>
+                            <div class="w-4/5 flex flex-wrap">
+                                <h1 class="w-full font-bold">Ready to Serve You</h1>
+                                <p class="w-full">We are prepared to serve guests from both Indonesia and the Middle East.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- About Sectoin End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="portofolio" class="pt-36 pb-16">
+        <div class="container ">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h2 class="font-bold text-dark text-3xl mb-4">Our <span class="text-secondary">Cars</span></h2>
+
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-11/12 xl:mx-auto">
+                <!-- Avanza -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Avanza (2018–2021)</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/Avanza.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">7 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Manual + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Pertalite</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp500.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3 ">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Xpander -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Xpander (2018-2023)</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/Xpander.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">7 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Manual + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Pertalite</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp550.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Stargazer -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Stargazer (2022)</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/Stargazer.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">7 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Matic + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Pertalite</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp550.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Xenia -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Xenia (2018-2023)</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/Xenia.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">7 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Manual + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Pertalite</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp500.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ertiga -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Ertiga (2018-2023)</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/Ertiga.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">7 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Manual + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Pertalite</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp500.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Innova Zenix -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Kijang Innova Zenix</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/Innova.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">7 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Matic + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Solar/Dexlite</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp1.100.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Innova Reborn -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Kijang Innova Reborn</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/innova-2.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">9 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Matic + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Solar/Dexlite</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp500.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fortuner -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Fortuner (2018-2023)</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/fortuner.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">7 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Matic + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Pertamina Dex</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp1.500.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pajero -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Pajero (2018-2023)</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/pajero.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">7 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Matic + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Pertamax</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp1.500.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Alphard -->
+                <div class="mb-12 p-4 md:w-1/2 xl:w-1/3">
+                    <div class="rounded-2xl bg-white shadow-md justify-center p-4">
+                        <div class="w-full flex justify-center text-center font-bold mt-2">
+                            <h1 class="whitespace-nowrap">Alphard (2018-2023)</h1>
+                        </div>
+                        <div class="w-full">
+                            <img src="dist/img/alphard.png" alt="" class="w-full">
+                        </div>
+                        <div class="w-full flex flex-wrap justify-between items-center text-sm">
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/passenger-seat.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">6 Capacity</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/steering-wheel.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full flex justify-center">
+                                    <p class="whitespace-nowrap">Matic + Driver</p>
+                                </div>
+                            </div>
+                            <div class="w-1/3 text-secondary flex flex-wrap px-4">
+                                <div class="w-full">
+                                    <img src="dist/img/gas-station.png" alt="" class="card-icon">
+                                </div>
+                                <div class="w-full text-center">
+                                    <p>Pertamax</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex p-4 items-center">
+                            <div class="w-1/2 flex flex-wrap divide-y divide-gray-400">
+                                <h2 class="w-full pb-2 font-bold">Rp2.500.000</h2>
+                                <p class="w-full pt-2 text-gray-600">12 jam</p>
+                            </div>
+                            <div class="w-1/2 p-2">
+                                <a class="w-full flex justify-center items-center bg-secondary rounded-md text-white py-4 px-2 hover:saturate-200" target="_blank" href="https://wa.me/6281288893882">
+                                    <div class="right-0 flex justify-end w-1/3">
+                                        <svg role="img" width="28" class="fill-current w-1/2 mr-2 right-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                    </div>
+                                    <p class="w-2/3 pl-2 whitespace-nowrap lg:pl-0">Rent Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Portofolio Section End -->
+
+    <!-- Client Section Start -->
+    <section id="client" class="pt-16 pb-16 bg-secondary">
+        <div class="container">
+            <div class="flex flex-wrap text-white">
+                <div class="w-full flex flex-wrap lg:hidden">
+                    <div class="w-full mb-6">
+                        <img src="dist/img/logo.png" alt="" class="w-1/3">
+                    </div>
+                    <h1 class="w-full font-bold">Pick-up Office</h1>
+                    <p class="w-full mb-6">
+                        <span class="font-bold">Bassura City Apartement</span><br>
+                        Jl. Jend. Basuki Rachmat No.1A, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur
+                    </p>
+                    <h1 class="w-full font-bold">Contact Us</h1>
+                    <p class="w-full text-4xl">0812-8889-3882</p>
+                    <p class="w-full text-4xl">waadifa@gmail.com</p>
+                </div>
+                <div class="w-full flex-wrap hidden lg:flex items-start">
+                    <div class="w-1/3 flex flex-wrap">
+                        <h1 class="w-full font-bold">Pick-up Office</h1>
+                        <p class="w-full mb-6">
+                            <span class="font-bold">Bassura City Apartement</span><br>
+                            Jl. Jend. Basuki Rachmat No.1A, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur
+                        </p>
+                    </div>
+                    <div class="w-1/3">
+                        <img src="dist/img/logo.png" alt="" class="w-1/2 mx-auto translate-y-4">
+                    </div>
+                    <div class="w-1/3 text-right">
+                        <h1 class="w-full font-bold">Contact Us</h1>
+                        <p class="w-full text-4xl">0812-8889-3882</p>
+                        <p class="w-full text-4xl">waadifa@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Client Section End -->
+<script src="dist/script.js"></script>
+</body>
+
+</html>
